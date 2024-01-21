@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tarea#995</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h2>CONCEPTOS BASICOS DE SEGURIDAD:</h2>
+<ol>
+<li>
+<p><strong>CIA TRIAD</strong>: Es un modelo común que forma la base para el desarrollo de sistemas de seguridad. Las tres letras en &quot;CIA triad&quot; representan Confidencialidad, Integridad y Disponibilidad.
+<a href="https://www.itgovernance.co.uk/blog/wp-content/uploads/2023/02/image-2.png">https://www.itgovernance.co.uk/blog/wp-content/uploads/2023/02/image-2.png</a> </p>
+<ul>
+<li><strong>Confidencialidad</strong>: Se refiere a los esfuerzos de una organización para asegurar que los datos se mantengan en secreto o privados.</li>
+<li><strong>Integridad</strong>: Los datos deben mantenerse en un estado correcto y nadie debe poder modificarlos incorrectamente, ya sea accidentalmente o maliciosamente.</li>
+<li><strong>Disponibilidad</strong>: Los usuarios autorizados deben poder acceder a los datos cuando lo necesiten.</li>
+</ul>
+</li>
+<li>
+<p><strong>USABILITY TRIANGLE</strong>:  se refiere a un enfoque que integra tres aspectos fundamentales en el desarrollo de productos y experiencias digitales, donde se busca el mantener (en el mejor de los casos) un equilibrio entre las 3 características. <a href="https://cdn.getmidnight.com/d0f1c52a0107bd8707444bbf130a0234/2022/08/functionality-usability-security.webp">https://cdn.getmidnight.com/d0f1c52a0107bd8707444bbf130a0234/2022/08/functionality-usability-security.webp</a></p>
+<ul>
+<li><strong>Seguridad:</strong> Este componente se refiere a la protección de la información y la privacidad de los usuarios. En el contexto del &quot;Usability Triangle&quot;, la seguridad implica que el producto o sistema debe ser capaz de proteger los datos sensibles de los usuarios, prevenir accesos no autorizados y garantizar la integridad de la información.</li>
+<li><strong>Funcionalidad:</strong> La funcionalidad se refiere a la capacidad del producto o sistema para cumplir con las necesidades y expectativas de los usuarios. Esto implica que el producto debe ofrecer las características y herramientas necesarias para que los usuarios puedan realizar sus tareas de manera efectiva.</li>
+<li><strong>Usabilidad:</strong> La usabilidad se refiere a la facilidad de uso y la experiencia del usuario al interactuar con el producto o sistema. Incluye aspectos como la facilidad de aprendizaje, la eficiencia en el uso, la satisfacción del usuario y la capacidad de recuperación ante errores. </li>
+</ul>
+</li>
+<li>
+<p><strong>Riesgo</strong>: Es la exposición a una situación donde hay una posibilidad de sufrir un daño o de estar en peligro.</p>
+</li>
+<li>
+<p><strong>MFA (Autenticación Multifactor)</strong>: Es un método de autenticación que requiere que el usuario proporcione dos o más factores de verificación para obtener acceso a un recurso, como una aplicación, una cuenta en línea o una VPN.</p>
+</li>
+<li>
+<p><strong>Vulnerabilidad</strong>: Es el riesgo que una persona, sistema u objeto puede sufrir frente a peligros inminentes, sean ellos desastres naturales, desigualdades económicas, políticas, sociales o culturales.</p>
+</li>
+<li>
+<p><strong>Amenaza</strong>: Es un gesto, una expresión o una acción que anticipa la intención de dañar a alguien en caso de que la persona amenazada no cumpla con ciertas exigencias.</p>
+</li>
+<li>
+<p><strong>Impacto</strong>: Es el choque o la colisión de dos objetos o seres. También puede referirse al efecto de una fuerza aplicada bruscamente.</p>
+</li>
+</ol>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

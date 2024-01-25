@@ -44,3 +44,18 @@ Instalación de ParrotSec en una máquina virtual.
 * A nivel de red
 * Host/Sistema
 * de Aplicación
+
+
+## 25 de enero del 2023
+
+jaja sus cv´s
+Ideas para CV´s:
+  * No poner numero telefonico, ni fotografía
+  * Poner hardskills y las softskills
+  * Poner mi nivel en mis habilidades profesionales
+  * Hacer el cv más lineal y que no haga tantos saltos
+  * Poner quién certificó y quién expidió los titulos de los cursos
+    * Poner numero de certificado
+  * Si has trabajado con clientes en USA sirve aunque tu nivel de ingles no sea bueno
+  * Usualmente se enfocan en el último trabajo que anotaste
+  * 

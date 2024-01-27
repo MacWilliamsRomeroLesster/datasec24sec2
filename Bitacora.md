@@ -58,4 +58,5 @@ Ideas para CV´s:
     * Poner numero de certificado
   * Si has trabajado con clientes en USA sirve aunque tu nivel de ingles no sea bueno
   * Usualmente se enfocan en el último trabajo que anotaste
-  * 
+
+## de enero del 2023

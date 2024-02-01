@@ -2,26 +2,36 @@
 
 
 >  Elaborado por: Lesster Mac Williams Romero  ✌️(･ิﭛ‎ ･ิ)✌️
+## 15 de enero del 2024
+Presentación de clase y ver plan de estudio
 
+## 18 de enero del 2024
+Traingulos:
+* **CIA**:
+  * Integridad
+  * Confidencialidad
+  * Avaibility
 
-## 22 de enero del 2023
+* **Usability**:
+  * Funcionalidad
+  * Usabilidad
+  * Seguridad
+  
+## 22 de enero del 2024
 
 Instalación de ParrotSec en una máquina virtual.
 
 ![Alt text](<Elementos para Bitacora/Parrot.png>)
 
-## 23 de enero del 2023
+## 23 de enero del 2024
 
 ### Essential Terminology
 * **Hack value**: Es aquello que es preciado para los "hackers".
 * **Target of Evaluation**: Es aquel objetivo de un atacante como lo es las IT, productos, componentes, etc.
 * **Exploit**: Se crea a partir de alguna vulnerabilidad existente dentro de la arquitectura.
-* **Zero-dat attack**: Aprovecharse de una vulnerabilidad antes que el desarrollador cree el parche de día 0.
+* **Zero-day attack**: Aprovecharse de una vulnerabilidad antes que el desarrollador cree el parche de día 0.
 * **Vulnerabilidad**: Existencia de alguna debilidad o un error de diseño/implementación, lo cual compromete la seguridad del sistema.
 * **Daisy Chaning/Agentes**: Personas o grupo de personas que realizan actos hacia diferentes sistemas.
-
-
-
 
 
  **Autenticidad**: Comprobación de documentos para comprobar que eres realmente la persona o Usuario real.
@@ -46,7 +56,7 @@ Instalación de ParrotSec en una máquina virtual.
 * de Aplicación
 
 
-## 25 de enero del 2023
+## 25 de enero del 2024
 
 jaja sus cv´s
 Ideas para CV´s:
@@ -59,4 +69,7 @@ Ideas para CV´s:
   * Si has trabajado con clientes en USA sirve aunque tu nivel de ingles no sea bueno
   * Usualmente se enfocan en el último trabajo que anotaste
 
-## de enero del 2023
+## 01 de febrero del 2024
+
+Hacer 4 preguntas en el template Kahoot
+

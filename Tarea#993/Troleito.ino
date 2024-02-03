@@ -11,6 +11,15 @@ void loop() {
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(3000);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); 
+  DigiKeyboard.delay(3000);
+  DigiKeyboard.println("https://www.youtube.com/watch?v=3UX3GGAxelQ&t=159s"); 
+  DigiKeyboard.delay(3000);
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+  DigiKeyboard.sendKeyStroke(KEY_D, MOD_GUI_LEFT); 
+  DigiKeyboard.delay(3000);
+
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); // Inicia Ejecutar
   DigiKeyboard.delay(1000);
   DigiKeyboard.println("cmd /k mode con: cols=15 lines=1"); // Ventana de CMD pequeña

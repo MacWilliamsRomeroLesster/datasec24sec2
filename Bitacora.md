@@ -83,3 +83,30 @@ Hacer 4 preguntas en el template Kahoot
 
 **Escalamiento de privilegios**
 Ganar acceso de administrador escalando por las diferentes capas de accesos, usualmente entrando desde la capa de usuario base hasta el admin. 
+
+**Ransomware**
+Encriptacion de los datos para pedir un rescate 
+
+Los conocidos tienen Password-Key
+
+
+Cómo tener tener seguro el sistema ante ranaomware:
+* backups (offsite)
+* Consentisación
+
+**Seguridad por capas:**
+
+Capas de accesos del modelo OSI
+
+las amenazas pueden separarse en diferentes conjuntos de capas
+
+**Tipos de respaldos**
+* full
+ * se guarda toda la información en su totalidad
+* diferencial
+ * cada tiempo pero agrega solo lo que se agrega después de hacer el respaldo full (lo nuevo)
+* incremental
+ * realiza lo mismo que el diferencial pero agrega cada menos tiempo la información agregada después del último diferencial
+
+Por ejemplo: 
+Bacula, AWS RDS, Amazon S3

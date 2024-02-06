@@ -1,10 +1,6 @@
 # Bitácora seguridad de datos 
-<<<<<<< HEAD
-=======
+Elaborado por: Lesster Mac Williams Romero  ✌️(･ิﭛ‎ ･ิ)✌️
 
->>>>>>> 8d8defec6a5ff19f22cb2a4c91ea8f46148d316e
-
->  Elaborado por: Lesster Mac Williams Romero  ✌️(･ิﭛ‎ ･ิ)✌️
 ## 15 de enero del 2024
 Presentación de clase y ver plan de estudio
 

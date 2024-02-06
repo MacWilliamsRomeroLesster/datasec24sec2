@@ -15,6 +15,11 @@ Traingulos:
   * Funcionalidad
   * Usabilidad
   * Seguridad
+ 
+**Equipos en un ataque (Information warfare)**
+ * Atacantes (Rojo)
+ * Defensores (Azul)
+ * Intermediarios (Morados)
   
 ## 22 de enero del 2024
 

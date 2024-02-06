@@ -77,3 +77,9 @@ Ideas para CV´s:
 
 Hacer 4 preguntas en el template Kahoot
 
+
+
+## 06 de febrero del 2024
+
+**Escalamiento de privilegios**
+Ganar acceso de administrador escalando por las diferentes capas de accesos, usualmente entrando desde la capa de usuario base hasta el admin. 

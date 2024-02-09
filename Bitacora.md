@@ -11,11 +11,15 @@ Traingulos:
   * Confidencialidad
   * Avaibility
 
+![alt text](https://www.f5.com/content/dam/f5-labs-v2/article/articles/edu/20190709_what_is_the_cia_triad/cia_triad.png)
+
 * **Usability**:
   * Funcionalidad
   * Usabilidad
   * Seguridad
- 
+
+![alt text](https://cdn.getmidnight.com/d0f1c52a0107bd8707444bbf130a0234/2022/08/functionality-usability-security.webp)
+
 **Equipos en un ataque (Information warfare)**
  * Atacantes (Rojo)
  * Defensores (Azul)

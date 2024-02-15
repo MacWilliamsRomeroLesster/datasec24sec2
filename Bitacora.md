@@ -126,4 +126,22 @@ Usar PasswordManager (Usa Entropía Keepass)
 Qué se puede instalar para evitar ataques hacia las password:
  Limitar el num de intentos (bloquear inicio de sesión)
   fail2ban
- 
+
+**Tipos de pentesting:**
+Pueden ser internas o externas(su alcance).
+
+ * Whitebox
+ * Blackbox
+ * Graybox
+
+**Fases del hacking(Pentesting):**
+ * de Reconocimiento(Footprinting)
+   * Revisar toda la información disponible del objetivo. 
+ * de Escaneo
+   * 
+ * de Ganar Acceso
+   * 
+ * de Mantener el Acceso
+   * 
+ * de Cubrir Huellas
+   * 

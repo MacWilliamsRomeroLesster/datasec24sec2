@@ -114,3 +114,16 @@ las amenazas pueden separarse en diferentes conjuntos de capas
 
 Por ejemplo: 
 Bacula, AWS RDS, Amazon S3
+
+## 15 de febrero del 2024
+
+Protocolo LDAP/OpenLDAP permitiendo montar varios servicios de la "empresa" con un arbol de dominio.
+
+Usuario de aplicación, no está asociado a una persona, sino que es un usuario que tiene la aplicación para que haga contacto con otros servicios/aplicaciones.
+
+Usar PasswordManager (Usa Entropía Keepass)
+
+Qué se puede instalar para evitar ataques hacia las password:
+ Limitar el num de intentos (bloquear inicio de sesión)
+  fail2ban
+ 

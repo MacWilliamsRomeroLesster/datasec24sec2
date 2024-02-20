@@ -145,3 +145,34 @@ Pueden ser internas o externas(su alcance).
    * 
  * de Cubrir Huellas
    * 
+
+## 20 de febrero del 2024
+Aplicación (@, URL, URI)
+Transporte (PORTS)
+TCP Y UDP
+Puertos
+80 http
+22 ssh
+21 ftp
+23 telnet
+25 smtp
+53 dns
+3306 mysql
+8080 tomcat
+
+Red (IP)
+Enlace de datos (MAC)
+Física (NIC)
+
+**Investigar que son los puertos efímeros y el problema de cuando se agotan**
+
+
+
+
+netstat -a -n -p TCP
+Lista de puertos que escuchan locamente
+
+
+utilizar nmap(escaneo a toda una red) o netcat(escaneo a un solo host) para escuchar puertos de una pc remota
+
+

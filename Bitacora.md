@@ -175,4 +175,16 @@ Lista de puertos que escuchan locamente
 
 utilizar nmap(escaneo a toda una red) o netcat(escaneo a un solo host) para escuchar puertos de una pc remota
 
+nmap ip
 
+nmap -pN ip
+
+nmap -p- ip
+
+nmap -sV ip
+
+nslookup url
+
+triple handshake
+
+montar un Metasploitable2 en maquina virtual para probar los n maps 

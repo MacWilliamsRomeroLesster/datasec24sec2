@@ -114,3 +114,77 @@ las amenazas pueden separarse en diferentes conjuntos de capas
 
 Por ejemplo: 
 Bacula, AWS RDS, Amazon S3
+
+## 15 de febrero del 2024
+
+Protocolo LDAP/OpenLDAP permitiendo montar varios servicios de la "empresa" con un arbol de dominio.
+
+Usuario de aplicación, no está asociado a una persona, sino que es un usuario que tiene la aplicación para que haga contacto con otros servicios/aplicaciones.
+
+Usar PasswordManager (Usa Entropía Keepass)
+
+Qué se puede instalar para evitar ataques hacia las password:
+ Limitar el num de intentos (bloquear inicio de sesión)
+  fail2ban
+
+**Tipos de pentesting:**
+Pueden ser internas o externas(su alcance).
+
+ * Whitebox
+ * Blackbox
+ * Graybox
+
+**Fases del hacking(Pentesting):**
+ * de Reconocimiento(Footprinting)
+   * Revisar toda la información disponible del objetivo. 
+ * de Escaneo
+   * 
+ * de Ganar Acceso
+   * 
+ * de Mantener el Acceso
+   * 
+ * de Cubrir Huellas
+   * 
+
+## 20 de febrero del 2024
+Aplicación (@, URL, URI)
+Transporte (PORTS)
+TCP Y UDP
+Puertos
+80 http
+22 ssh
+21 ftp
+23 telnet
+25 smtp
+53 dns
+3306 mysql
+8080 tomcat
+
+Red (IP)
+Enlace de datos (MAC)
+Física (NIC)
+
+**Investigar que son los puertos efímeros y el problema de cuando se agotan**
+
+
+
+
+netstat -a -n -p TCP
+Lista de puertos que escuchan locamente
+
+
+utilizar nmap(escaneo a toda una red) o netcat(escaneo a un solo host) para escuchar puertos de una pc remota
+
+nmap ip
+
+nmap -pN ip
+
+nmap -p- ip
+
+nmap -sV ip
+
+nslookup url
+
+triple handshake
+
+montar un Metasploitable2 en maquina virtual para probar los n maps 

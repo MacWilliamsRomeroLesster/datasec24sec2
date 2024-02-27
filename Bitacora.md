@@ -1,6 +1,8 @@
 # Bitácora seguridad de datos 
 Elaborado por: Lesster Mac Williams Romero  ✌️(･ิﭛ‎ ･ิ)✌️
 
+# Parcial 1
+
 ## 15 de enero del 2024
 Presentación de clase y ver plan de estudio
 
@@ -165,6 +167,7 @@ Enlace de datos (MAC)
 Física (NIC)
 
 **Investigar que son los puertos efímeros y el problema de cuando se agotan**
+
 **Puerto efímero**
 Es un puerto de protocolo de transporte de corta duración para comunicaciones de Protocolo de internet (IP). Los puertos efímeros se asignan automáticamente desde un rango predefinido en la familia de protocolos de internet.
 
@@ -191,3 +194,8 @@ nslookup url
 triple handshake
 
 montar un Metasploitable2 en maquina virtual para probar los n maps 
+
+# Parcial 2
+
+## 27 de febrero del 2024
+

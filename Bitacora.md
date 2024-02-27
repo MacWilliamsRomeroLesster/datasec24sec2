@@ -165,8 +165,11 @@ Enlace de datos (MAC)
 Física (NIC)
 
 **Investigar que son los puertos efímeros y el problema de cuando se agotan**
+**Puerto efímero**
+Es un puerto de protocolo de transporte de corta duración para comunicaciones de Protocolo de internet (IP). Los puertos efímeros se asignan automáticamente desde un rango predefinido en la familia de protocolos de internet.
 
-
+**Problema de cuando se agotan**
+Cuando se agotan los puertos efímeros, es decir, cuando se han utilizado todos los puertos disponibles para realizar conexiones, cualquier intento nuevo de establecer una conexión producirá un error.
 
 
 netstat -a -n -p TCP

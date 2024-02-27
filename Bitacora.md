@@ -224,7 +224,7 @@ Infraestructura como software
 Azul lo que soy responsable y lo Verde lo que se me provee.
 Donde se toma en cuenta de qué somos responsables y qué el proveedor, lo cual dependerá qué tipo de servicio estamos utilizando.
 
-**Modelos principales**
+### **Modelos principales**
 
 Iaas PaaS SaaS
 
@@ -243,14 +243,16 @@ Dos **posibles escenarios**:
 - Capacidad del servidor subestimada (No alcanza el suficiente servicio para la demanda). 
 
 
-**Servicios web:** Cualquier software que se ofrece a disposición a través de internet y utiliza un formato estandarizado para la solicitud y la respuesta de una interacción con la interfaz de programación de aplicaciones(API).
+### **Servicios web:** 
+Cualquier software que se ofrece a disposición a través de internet y utiliza un formato estandarizado para la solicitud y la respuesta de una interacción con la interfaz de programación de aplicaciones(API).
 
 Existen diversas categorias de los servicios de AWS.
 
 Para usar los servicios se tienen que tener una cuenta de AWS.
 
-**Formas de interactuar con AWS:**
+### **Formas de interactuar con AWS:**
 - Consola de administración de AWS
 - Interfaz de línea de comandos (AWS CLI)
 - Kits de desarrollo de software (SDK)
 
+Regiones de AWS es una zona geografica.

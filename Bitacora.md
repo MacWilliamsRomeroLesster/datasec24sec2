@@ -293,4 +293,7 @@ Servicio de AWS que permite mantener la auditabilidad: AWS Cloud Trial
 - Minimizar la superficie de ataque
 
   Normas PCI, se debe segmentar los datos para que los datos no sean robados totalmente.
-- 
+
+**Modelo de responsabilidad compartida**
+
+MSO responsability model

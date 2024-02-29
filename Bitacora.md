@@ -236,7 +236,7 @@ Menos control sobre los recursos de TI
 
 Nube pública, hibrida y privada.
 
-**Pay as yo go:** Modelo que pagas lo que usas
+**Pay as you go:** Modelo que pagas lo que usas
 
 Dos **posibles escenarios**: 
 - Capacidad del servidor sobrestimada (Sobran recursos por la baja demanda).
@@ -259,3 +259,38 @@ Regiones de AWS es una zona geografica.
 
 
 ## 29 de febrero del 2024
+AWS Cloud security:
+- Confiability
+- Auditability
+- Agility and automation
+- 
+
+Servicio de AWS que permite mantener la auditabilidad: AWS Cloud Trial
+
+**Diseños de principios de seguridad**
+
+- Aplicar el principio del menor privilegio
+  - Se le debe garantizar el acceso necesario para el usuario.
+  - Hacer cumplit la separación de funciones
+  - Evitar credenciales long-term (cambio de credenciales cada cierto tiempo)
+- Activar la trazabilidad (capacidad de regresar o rastrear evento)
+  - Monitoriar acciones y cambios.
+  - Usar logs y metricas.
+  - Auditar recursos en la nube.
+- Mantener segura todas las capas
+
+  No solo confiar en una capa de tu arquitectura.
+  - Tener defensa en profundidad (no permitir al atacante avanzar en tus capas).
+- Automatiza la seguridad
+
+    Posibles casos como poner alertas cuando se burla una capa de seguridad.
+  - Automatizar rutinas de seguridad como tareas.
+  - Implementar infraestructura como código
+- Proteger los datos en transito y en reposo.
+  - Usar VPN o protocolos seguros (TLS)
+  - Todos los datos deben viajar encriptados
+- Ten un plan de respuesta de incidentes
+- Minimizar la superficie de ataque
+
+  Normas PCI, se debe segmentar los datos para que los datos no sean robados totalmente.
+- 

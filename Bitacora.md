@@ -256,3 +256,6 @@ Para usar los servicios se tienen que tener una cuenta de AWS.
 - Kits de desarrollo de software (SDK)
 
 Regiones de AWS es una zona geografica.
+
+
+## 29 de febrero del 2024

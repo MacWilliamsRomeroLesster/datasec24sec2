@@ -1,6 +1,8 @@
 # Bitácora seguridad de datos 
 Elaborado por: Lesster Mac Williams Romero  ✌️(･ิﭛ‎ ･ิ)✌️
 
+# Parcial 1
+
 ## 15 de enero del 2024
 Presentación de clase y ver plan de estudio
 
@@ -146,7 +148,10 @@ Pueden ser internas o externas(su alcance).
  * de Cubrir Huellas
    * 
 
+# Parcial 2
+
 ## 20 de febrero del 2024
+
 Aplicación (@, URL, URI)
 Transporte (PORTS)
 TCP Y UDP
@@ -165,6 +170,7 @@ Enlace de datos (MAC)
 Física (NIC)
 
 **Investigar que son los puertos efímeros y el problema de cuando se agotan**
+
 **Puerto efímero**
 Es un puerto de protocolo de transporte de corta duración para comunicaciones de Protocolo de internet (IP). Los puertos efímeros se asignan automáticamente desde un rango predefinido en la familia de protocolos de internet.
 
@@ -191,3 +197,103 @@ nslookup url
 triple handshake
 
 montar un Metasploitable2 en maquina virtual para probar los n maps 
+
+## 27 de febrero del 2024
+
+La computadora de alguien más (se almacena en la computadora de proveedores, los cuales son alquilados).
+
+### **Informatica en la nube**
+
+La **informatica en la nube** es la entrega bajo demanda de potencia de cómputo, bases de datos, almacenamiento, aplicaciones y otros recursos de TI, a través de internet con un sistema de precios de pago por uso.
+
+Deja de ser una infraestructura como hardware y, en cambio se ve y se usa como software.
+
+El **usuario de la nube** es aquel que tiene en poder la nube la cual es adquirida de un proveedor de la nube. (no confundir con el usuario que consume de nuestro servicio basado en la nube)
+
+Infraestructura como software
+- Se vuelve más flexible.
+- Cambio más rápido y es más rentable.
+- Terminan las tareas pesadas innecesarias.
+
+### **Modelos de servicio en la nube**
+
+**Pizza as a Service**
+
+![alt text](https://imgs.search.brave.com/usj88kOgK0RPjJl7LJKQEoDM1uvoAQpAeI3USpghAVU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljL2Y0/LzQ5LzljZjQ0OTBi/YjZmYzk4ZWY5ZWIx/ZmNhZmJkOGI1YTU5/LmpwZw)
+
+Azul lo que soy responsable y lo Verde lo que se me provee.
+Donde se toma en cuenta de qué somos responsables y qué el proveedor, lo cual dependerá qué tipo de servicio estamos utilizando.
+
+### **Modelos principales**
+
+Iaas PaaS SaaS
+
+Más control sobre los recursos de TI
+Menos control sobre los recursos de TI
+
+
+**Modelos de implementación de informatica en la nube**
+
+Nube pública, hibrida y privada.
+
+**Pay as you go:** Modelo que pagas lo que usas
+
+Dos **posibles escenarios**: 
+- Capacidad del servidor sobrestimada (Sobran recursos por la baja demanda).
+- Capacidad del servidor subestimada (No alcanza el suficiente servicio para la demanda). 
+
+
+### **Servicios web:** 
+Cualquier software que se ofrece a disposición a través de internet y utiliza un formato estandarizado para la solicitud y la respuesta de una interacción con la interfaz de programación de aplicaciones(API).
+
+Existen diversas categorias de los servicios de AWS.
+
+Para usar los servicios se tienen que tener una cuenta de AWS.
+
+### **Formas de interactuar con AWS:**
+- Consola de administración de AWS
+- Interfaz de línea de comandos (AWS CLI)
+- Kits de desarrollo de software (SDK)
+
+Regiones de AWS es una zona geografica.
+
+
+## 29 de febrero del 2024
+AWS Cloud security:
+- Confiability
+- Auditability
+- Agility and automation
+- 
+
+Servicio de AWS que permite mantener la auditabilidad: AWS Cloud Trial
+
+**Diseños de principios de seguridad**
+
+- Aplicar el principio del menor privilegio
+  - Se le debe garantizar el acceso necesario para el usuario.
+  - Hacer cumplit la separación de funciones
+  - Evitar credenciales long-term (cambio de credenciales cada cierto tiempo)
+- Activar la trazabilidad (capacidad de regresar o rastrear evento)
+  - Monitoriar acciones y cambios.
+  - Usar logs y metricas.
+  - Auditar recursos en la nube.
+- Mantener segura todas las capas
+
+  No solo confiar en una capa de tu arquitectura.
+  - Tener defensa en profundidad (no permitir al atacante avanzar en tus capas).
+- Automatiza la seguridad
+
+    Posibles casos como poner alertas cuando se burla una capa de seguridad.
+  - Automatizar rutinas de seguridad como tareas.
+  - Implementar infraestructura como código
+- Proteger los datos en transito y en reposo.
+  - Usar VPN o protocolos seguros (TLS)
+  - Todos los datos deben viajar encriptados
+- Ten un plan de respuesta de incidentes
+- Minimizar la superficie de ataque
+
+  Normas PCI, se debe segmentar los datos para que los datos no sean robados totalmente.
+
+**Modelo de responsabilidad compartida**
+
+MSO responsability model

@@ -298,6 +298,51 @@ Servicio de AWS que permite mantener la auditabilidad: AWS Cloud Trial
 
 MSO responsability model
 
+Responsables:
+- Usuario en la nube
+- Proveedor de la nube
+
 ## 05 de marzo del 2024
 
-Hola mundo
+**Servicio de IAM**
+- Usuario: es el que debe saber a quién proporciona las credenciales.
+- Proveedor: se asegura que los servicios sean seguros.
+- Iam permite controlar y compartir el control individual y grupal para acceder a los recursos de AWS
+- Integra servicios AWS
+- Usa administración de usuarios generada.
+- Multifactor authentication
+
+Se usa acciones como federal para que llame a un superior aunque los recursos sea de si mismo.
+
+¿Qué provee?
+- Authentificación
+- Autorización
+
+Terminologias
+- 
+
+**Endpoints**
+- conectar con url
+- kits de desarrollos para usar 
+
+ASegura el acceso a los datos. Administración de usuarios, grupos y supervizarlos.
+
+**Roles de IAM**
+- Caracteristicas 
+  - proveer credenciales de seguridad temporales
+  - los roles no son asociados a una persona unica
+  - las personas, aplicaciones o servicios AWS pueden asumir un rol
+  - los roles es obtenido cuando se le de el acceso
+  - los token tienen credenciales volatiles
+
+- Common use cases
+  - Amazon EC2
+  - Cross-account accedida por el usuario de IAM
+  - APlicaicones movil
+
+**Qué es el Hardening**
+
+
+**Logica de las politicas de IAM**
+
+**Amazon Cognito**

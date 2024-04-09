@@ -341,8 +341,89 @@ ASegura el acceso a los datos. Administración de usuarios, grupos y supervizarl
   - APlicaicones movil
 
 **Qué es el Hardening**
-
+consiste en el endurecimiento del sistema, con el fin de reducir y evitar las amenazas y los peligros de este
 
 **Logica de las politicas de IAM**
 
 **Amazon Cognito**
+
+## 07 de marzo del 2024
+
+Como asegurar infraestructura de arquitectura de datos en la nube.
+
+La responsabildiad de la seguridad de la red en la nube es culpa del User (seguridad fisia)
+
+Arquitectura de 3 capas
+  - Presentation (Front)
+  - Business logic (Back)
+  - Almacenamiento de datos
+
+**VPC(Nube privada virtual)** espacio aisaldo en la nube de AWS que permite desplegar servicios de nube y mantenerlos aislados de otros usuario. Se basa en una sola región, no puede haber más de una VPC en una misma región o una misma VPC en diferentes regiones.
+
+Se puede dividir la VPC en diferentes subredes las cuales deben tener conexión con la red principal
+
+IP address outage
+
+IP elasticas, reservadas como publicas, estas 
+
+Elastic network interface
+
+**Security groups**
+
+Son los "fireworks", para detectar el flujo de datos entre los protocolos y administrarlos   
+
+Security group statefull, no hace falta definir una ruta de salida a uno que ya está pre definido hacia un destino.
+Significa que no se debe crear una regla de salida para que pueda responder por el mismo puerto que se conectó.
+
+**Network ACLs** 
+
+protege todos los recursos desplegados en x grupo de seguridad
+
+
+**Cómo proteger un recurso**
+
+Pasar enrutamiento, ACLs y Segurit group
+
+**Elastic Load Balancing (ELB)**
+
+## 09 de abril del 2024
+
+Vamos a basarnos en CIS, elegir un Benchmark y vamos a trabajar en uno.
+
+**Trabajar en Maria DB**
+
+basarnos en https://github.com/tuxtter/hardening
+
+
+
+**SSH Tunnel**
+
+![alt text](https://iximiuz.com/ssh-tunnels/ssh-tunnels-2000-opt.png) 
+
+Accede al servidor con las credenciales dadas por el que lo pide y mediante el tunel puedes acceder a los datos del servidor haciendo una conexión.
+
+![alt text](https://imgs.search.brave.com/mvDY28O1wVYfyspHBbLb2EDf7yRGKz6AgDdlvkSP_08/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9peGlt/aXV6LmNvbS9zc2gt/dHVubmVscy9sb2Nh/bC1wb3J0LWZvcndh/cmRpbmctMjAwMC1v/cHQucG5n)
+
+la diferencia entre el primer comando y el segundo, es que se especifica que solo va a escuchar el localhost y no toda la tarjeta de red como hace en el primer comando.
+
+
+En caso en que el SSH server se encuentra separado del servidor web. Se hará desde el servidor el comando.
+
+***Bastion*** es un servicio que tiene una parte expuesta a internet y otra que permite la conexión con el servidor.
+
+![alt text](https://iximiuz.com/ssh-tunnels/local-port-forwarding-bastion-2000-opt.png)
+
+
+Siempre es el cliente el que se conecta al servidor, el tunel va desde el cliente al servidor para que el servidor pueda utilizar el servicio de SSH. Mayormente usados para escanear vulnerabilidades. 
+
+![alt text](https://iximiuz.com/ssh-tunnels/remote-port-forwarding-2000-opt.png)
+
+Se suele usar Nessus para analizar vulnerabilidades.
+
+
+Servicio web fuera del SSH igual al anterior, pero como la segunda fig. El cliente no ve al servicio web, sino tiene que ir con una conexión al server web y su IP.
+
+![alt text](https://iximiuz.com/ssh-tunnels/remote-port-forwarding-home-network-2000-opt.png)
+
+
+Debe haber una configuración en el server SSH que lo permita.

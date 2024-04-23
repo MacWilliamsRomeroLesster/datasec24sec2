@@ -427,3 +427,7 @@ Servicio web fuera del SSH igual al anterior, pero como la segunda fig. El clien
 
 
 Debe haber una configuración en el server SSH que lo permita.
+
+## 23 de abril del 2024
+
+Hola mundo

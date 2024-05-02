@@ -468,4 +468,4 @@ Tienes que definir cuál es el trafico a permitir dependiendo del tipo de servic
 
 Cuando se hace scan con nmap el firewall protege, porque las politicas deberán tener configuración de DROP (Reject cuando llegue, contesta y el Drop bloquea el trafico sin responder).
 
-Instalar un UTM distribución ClearOS, el cual extrae la complejidad de UPTable, construir un firewall de manera amigable
+Instalar un UTM distribución de linux , webmin o ClearOS, el cual extrae la complejidad de UPTable, construir un firewall de manera amigable

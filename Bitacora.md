@@ -430,4 +430,4 @@ Debe haber una configuración en el server SSH que lo permita.
 
 ## 23 de abril del 2024
 
-Investigar sobre una vulnerabilidad de Metasploitable 2
+Investigar sobre una vulnerabilidad de Metasploitable 2 

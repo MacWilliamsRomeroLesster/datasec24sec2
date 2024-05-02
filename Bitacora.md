@@ -428,6 +428,44 @@ Servicio web fuera del SSH igual al anterior, pero como la segunda fig. El clien
 
 Debe haber una configuración en el server SSH que lo permita.
 
-## 23 de abril del 2024
+## 02 de mayo del 2024
 
-Investigar sobre una vulnerabilidad de Metasploitable 2 
+**Modelo OSI**
+
+- Aplicacion         |
+
+- Presentación       | Urls, Correos, sistemas de archivo
+
+- Sesión             |
+
+- Transporte (Puertos)
+
+- Red (IP Address)
+
+- Enlace de datos (MacAddress)
+
+- Fisica
+
+
+
+Firewalls pueden encontrarse en:
+- Permisivos: Permite todo y va restringiendo conforme a lo que decida
+- Restrictivos (deniega todo): Deniega todo y luego va permitiendo lo que desea
+
+- Acciones:
+  - Permitir (Accept) 
+  - Denegar (Drop, Reject)
+
+- Reglas
+  - Reglas de entrada
+  - Reglas de salida
+
+- Pueden ser:
+  - Statefull
+  - Stateless
+
+Tienes que definir cuál es el trafico a permitir dependiendo del tipo de servicio. Debe estar contruido que cuando alguien ejecute un sploit malicioso el firewall lo niegue. 
+
+Cuando se hace scan con nmap el firewall protege, porque las politicas deberán tener configuración de DROP (Reject cuando llegue, contesta y el Drop bloquea el trafico sin responder).
+
+Instalar un UTM distribución ClearOS, el cual extrae la complejidad de UPTable, construir un firewall de manera amigable
